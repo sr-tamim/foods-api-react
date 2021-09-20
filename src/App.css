@@ -1,0 +1,28 @@
+
+.heading{
+  text-align: center;
+}
+.heading sub{
+  font-size: 15px;
+}
+.searchArea{
+  text-align: center;
+  margin: 40px 0;
+}
+.searchArea input{
+  width: 50%;
+  max-width: 600px;
+  font-size: 20px;
+  padding: 10px;
+  border: 0;
+  outline: 0;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgb(219, 219, 219) inset;
+}
+.searchArea input[type=button]{
+  width: max-content;
+  background: crimson;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+}
