@@ -4,7 +4,7 @@ import './Foods.css';
 
 const Foods = () => {
     setTimeout(() => {
-        document.getElementById('searchButton').addEventListener('click', getFoods)
+        document.getElementById('searchButton').addEventListener('click', getFoods);
     }, 1);
 
     const [foods, setFoods] = useState({});
