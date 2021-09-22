@@ -10,6 +10,9 @@ const Foods = () => {
     const [foods, setFoods] = useState({});
     useEffect(getFoods, []);
 
+    // watch foods when changes by adding dependency in useEffect function
+    useEffect(() => { console.log(foods) }, [foods]);
+
     function getFoods() {
         // set status as loading
         setFoods({ meals: 'Loading' });
